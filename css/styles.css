@@ -1,0 +1,19 @@
+
+/* Barra de navegacion */
+.navbar{
+    background-color: #FFFFFF;
+}
+
+.navbar-brand{
+    font-family: Helvetica, Arial;
+    font-size: 24px;
+}
+
+.containter-fluid a{
+    padding-left: 15px;
+}
+
+.links ul{
+    display: block;
+    text-align: right;
+}
