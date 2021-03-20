@@ -2,6 +2,7 @@
 /* Barra de navegacion */
 .navbar{
     background-color: #FFFFFF;
+    border: black;
 }
 
 .navbar-brand{
@@ -10,10 +11,37 @@
 }
 
 .containter-fluid a{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
 .links ul{
     display: block;
     text-align: right;
+}
+
+.nav{
+    font-family: Helvetica, Arial;
+}
+
+.nav-item{
+    margin-left: 8px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav-item a{
+    color: black;
+}
+
+.dropdown-menu{
+    padding-left: 7px;
+    margin-top: 5px;
+    
+}
+
+.dropdown-menu a:hover{
+    transition: 300ms;
+    background-color: rgba(131,113,83,0.58);
+    color: black;
+    text-decoration-line: none;
 }
