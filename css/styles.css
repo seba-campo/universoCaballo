@@ -5,9 +5,17 @@ body{
 }
 
 /* Barra de navegacion */
+/* LOGO Y TITULO */
 .navbar{
     background-color: #FFFFFF;
-    border: black;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.container-fluid{
+    width: 100px;
+    margin-left: 3px;
+    padding-left: 10px;
 }
 
 .navbar-brand{
@@ -15,9 +23,17 @@ body{
     font-size: 24px;
 }
 
-.containter-fluid a{
-    padding-left: 10px;
+.navbar-brand a{
+    color: rgb(119, 105, 76)
 }
+
+.navbar-brand:hover{
+    transition: 400ms;
+    color: rgb(119, 105, 76);
+}
+
+
+/* LINKS */
 
 .links ul{
     display: block;
@@ -31,23 +47,29 @@ body{
 .nav-item{
     margin-left: 8px;
     margin-right: 10px;
-    text-decoration: none;
 }
 
+
 .nav-item a{
+    color: #455a64;
+    text-decoration: none;
+    font-family: Helvetica, Arial;
+}
+
+.nav-item a:hover{
+    transition: 200ms;
     color: black;
+    font-variant: initial;
 }
 
 .dropdown-menu{
-    padding-left: 7px;
-    margin-top: 5px;
-    
+    padding-left: 10px;
 }
 
 .dropdown-menu a:hover{
-    transition: 300ms;
-    background-color: rgba(131,113,83,0.58);
-    color: black;
+    transition: 400ms;
+    font-style: italic;
+    color: black;   
     text-decoration-line: none;
 }
 
@@ -66,23 +88,45 @@ body{
     margin-bottom: 50px;
 }
 
-/*Banner principal*/
+/*CARROUSELL HEADER*/
 
-.banner img{
-    width: 100%;
+.containerSlider{
+    margin: 0px 0px 0px;
 }
+
+
+.bx-wrapper{
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.bx-wrapper img{
+    height: 300px;
+}
+
 
 /*Index bajo banner*/
 
 .kari{
-    width: 100%;
+    width: 95%;
     box-shadow: 10px 5px 5px #D1D1D1;
 }
 
 .titulo{
-    font-size: 23px;
+    font-size: 24px;
     margin-bottom: 50px;
 }
+
+#tituloBody{
+    color: rgb(144,128,97);
+}
+
+#tituloBody:hover{
+    color: rgb(119, 105, 76);
+    transition: 400ms;
+}
+
 
 /*Footer / Pie de pagina*/
 
@@ -130,6 +174,5 @@ footer{
 }
 
 /*SOBRE MI PONER EN OTRO ARCHIVO CSS*/
-
 
 

@@ -13,6 +13,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+        <!--bxSlider Carrousell-->
+        <link rel="stylesheet" href="extras/bxSlider/dist/jquery.bxslider.css">
+        <script src="extras/bxSlider/dist/jquery.bxslider.min.js"></script>
+
+
         <!--CSS-->
         <link rel="stylesheet" href="css/styles.css">
 
@@ -24,13 +29,15 @@
     <body>
         <!--NAVBAR-->
         <nav class="navbar navbar-light">
-            <div class="containter-fluid">
-                <!--Logo con texto-->
+
+            <!--Logo con texto-->
+            <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                <img src="img/logo-navbar.JPG" alt="" width="40px" height="35px" class="d-inline-block align-top" id="navLogo">
-                Universo Caballo
+                    <img src="img/logo-navbar.JPG" alt="" width="40px" height="35px" class="d-inline-block align-top" id="navLogo"> Universo Caballo
                 </a>
             </div>
+
+
 
             <!--right navbar-->
             <ul class="nav navbar-tabs navbar-right">
@@ -59,27 +66,26 @@
                 <li class="nav-item"><a href="#">Biblioteca</a></li>
                 <li class="nav-item"><a href="contacto.html">Contacto</a></li>
             </ul>
-
         </nav>
 
 
-        <!--Banner-->
+        <!--Banner Carrousell slider-->
 
-        <div class="containter">
-            <div class="banner">
-                <img src="img/banner.jpg" alt="">
+        <div class="containerSlider">
+            <div class="bxSlider"> <!--Hay que revisar los tamaños de las imagenes-->
+                <div><img src="img/Carrousell/banner.png" alt=""></div>
+                <div><img src="img/Carrousell/banner2.png" alt=""></div>
             </div>
         </div>
 
         <!--Presentación-->
-
         <div class="container espacios">
             <div class="row">
                 <div class="col-6">
                     <img src="img/kari.jpg" alt="kari" class="kari">
                 </div>
                 <div class="col-6 centrado">
-                    <h1 class="centrado titulo">Bienvenido a Universo Caballo</h1>
+                    <h1 id="tituloBody" class="centrado titulo"><strong>Bienvenido a Universo Caballo</strong></h1>
                     <p>Hola, soy Karina, profesora de equitación.</p>
                     <p>Esta página la he diseñado para ayudar a todo aquel que desee ingresar al mundo del caballo.</p>
                     <p>Las fotos y los videos buscan complementar y enriquecer al contenido de los apuntes que comparto con mis alumnos</p>
