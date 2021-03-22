@@ -1,0 +1,18 @@
+
+/*CONTACTO PONER EN OTRO ARCHIVO CSS*/
+
+.contacto{
+    margin-bottom: 50px;
+}
+
+.whatsapp{
+    text-decoration: none;
+    color: black;
+}
+
+.whatsapp:hover{
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: none;
+}
+
+/*SOBRE MI PONER EN OTRO ARCHIVO CSS*/

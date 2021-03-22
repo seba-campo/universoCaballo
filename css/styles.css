@@ -88,44 +88,6 @@ body{
     margin-bottom: 50px;
 }
 
-/*CARROUSELL HEADER*/
-
-.containerSlider{
-    margin: 0px 0px 0px;
-}
-
-
-.bx-wrapper{
-    width: 100%;
-    height: 300px;
-    border: none;
-}
-
-.bx-wrapper img{
-    height: 300px;
-}
-
-
-/*Index bajo banner*/
-
-.kari{
-    width: 95%;
-    box-shadow: 10px 5px 5px #D1D1D1;
-}
-
-.titulo{
-    font-size: 24px;
-    margin-bottom: 50px;
-}
-
-#tituloBody{
-    color: rgb(144,128,97);
-}
-
-#tituloBody:hover{
-    color: rgb(119, 105, 76);
-    transition: 400ms;
-}
 
 
 /*Footer / Pie de pagina*/
@@ -157,22 +119,5 @@ footer{
     margin-bottom: 0;
 }
 
-/*CONTACTO PONER EN OTRO ARCHIVO CSS*/
-
-.contacto{
-    margin-bottom: 50px;
-}
-
-.whatsapp{
-    text-decoration: none;
-    color: black;
-}
-
-.whatsapp:hover{
-    color: rgba(0, 0, 0, 0.692);
-    text-decoration: none;
-}
-
-/*SOBRE MI PONER EN OTRO ARCHIVO CSS*/
 
 
