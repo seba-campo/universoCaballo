@@ -15,4 +15,8 @@
     text-decoration: none;
 }
 
+.banner img{
+    width: 100%;
+}
+
 /*SOBRE MI PONER EN OTRO ARCHIVO CSS*/
