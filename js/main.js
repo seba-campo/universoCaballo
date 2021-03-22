@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-    
-
-
 
     // SLIDER
     $('.bxSlider').bxSlider({
@@ -10,7 +7,6 @@ $(document).ready(function(){
         infiniteLoop: true,
         pager: false,
         auto: true,
-
     });
-
+        
 });
