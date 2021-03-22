@@ -1,3 +1,8 @@
+/*Parametros iniciales del Body*/
+body{
+    padding: 0%;
+    margin: 0%;
+}
 
 /* Barra de navegacion */
 .navbar{
@@ -45,3 +50,86 @@
     color: black;
     text-decoration-line: none;
 }
+
+/*Centrado y Expacios default (Estas lineas de codigo tienen que ir en todos los css)*/
+
+.centrado{
+    text-align: center;
+}
+
+.espacios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.espaciop{
+    margin-bottom: 50px;
+}
+
+/*Banner principal*/
+
+.banner img{
+    width: 100%;
+}
+
+/*Index bajo banner*/
+
+.kari{
+    width: 100%;
+    box-shadow: 10px 5px 5px #D1D1D1;
+}
+
+.titulo{
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+/*Footer / Pie de pagina*/
+
+footer{
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    
+}
+
+.logoinsta{
+    width: 100px;
+
+}
+
+.logoyoutube{
+    width: 120px;
+}
+
+.redes{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.derechos{
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+/*CONTACTO PONER EN OTRO ARCHIVO CSS*/
+
+.contacto{
+    margin-bottom: 50px;
+}
+
+.whatsapp{
+    text-decoration: none;
+    color: black;
+}
+
+.whatsapp:hover{
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: none;
+}
+
+/*SOBRE MI PONER EN OTRO ARCHIVO CSS*/
+
+
+
