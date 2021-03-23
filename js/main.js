@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-
-    // SLIDER
+    // SLIDER en index
     $('.bxSlider').bxSlider({
         randomStart: true,
         infiniteLoop: true,
