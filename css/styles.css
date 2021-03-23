@@ -5,6 +5,23 @@ body{
     background-color: #eeeeee;
 }
 
+.font{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.fontItalica{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(34, 32, 32);
+}
+
+.fontTitulo{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
 /* Barra de navegacion */
 /* LOGO Y TITULO */
 .navbar{
@@ -97,7 +114,7 @@ footer{
     background: #C9FFBF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    
+    margin-bottom: 0px;
 }
 
 .logoinsta{
@@ -115,7 +132,7 @@ footer{
 }
 
 .derechos{
-    text-align: right;
+    text-align: center;
     padding: 10px;
     margin-bottom: 0;
 }
@@ -133,6 +150,7 @@ footer{
 .press{
     background-color:#eeeeee;
 }
+
 
 
 
