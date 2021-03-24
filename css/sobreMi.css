@@ -1,3 +1,58 @@
-.banner img{
+/* .banner img{
     width: 100%;
+}
+
+.banner div{
+    position: absolute;
+
+} */
+
+
+/* prueba */
+.contenedor{
+    position: relative;
+     
+    display: inline-block;
+    text-align: center;
+}
+.contenedor img{
+    width:100%;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* TITULO DEL BODY */
+
+#titulo{
+    text-decoration-line: underline;
+    color: rgb(119, 105, 76)
+}
+
+
+
+/* LISTA DE CURSOS HECHOS */
+
+#cursos{
+    list-style: none;
+    border: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px; 
+    border-radius: 1px;
+}
+
+#cursos:hover{
+    transition: 400ms;
+    background-color: rgba(219, 219, 219, 0.822);
+}
+
+#cursos li{
+    margin-top: 3px;
+    margin-bottom: 7px;
 }
