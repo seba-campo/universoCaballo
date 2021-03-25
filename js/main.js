@@ -7,4 +7,5 @@ $(document).ready(function(){
         pager: false,
         auto: true,
     });
+
 });
