@@ -127,6 +127,13 @@ $(document).ready(function () {
         $('#listaExperiencias').append(experiencia);
     });
 
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        console.log(y);
+        if (y >= 4300) {
+            $('footer').fadeIn(1500);
+        } 
+    });
     
 
 });

@@ -8,4 +8,15 @@ $(document).ready(function(){
         auto: true,
     });
 
+    $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        
+        if (y > 350) {
+            $('footer').fadeIn(1500);
+        } 
+
+    
+    });
+
+
 });
