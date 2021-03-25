@@ -112,9 +112,9 @@ body{
 /*Footer / Pie de pagina*/
 
 footer{
-    background: #C9FFBF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: rgb(119, 105, 76);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(119, 105, 76), rgb(124, 95, 37));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(119, 105, 76), rgb(107, 78, 18)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     margin-bottom: 0px;
 }
 
@@ -151,6 +151,17 @@ footer{
 .press{
     background-color:#eeeeee;
 }
+
+/*COLOR DE LETRA DE NAV*/
+
+.nav-item a{
+    color: rgb(144, 128, 97);
+}
+
+.nav-item a:hover{
+    color: rgb(109, 90, 52);
+}
+
 
 
 
