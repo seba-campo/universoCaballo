@@ -4,6 +4,9 @@
     display: inline-block;
     text-align: center;
     width: 100%;
+    height: 350px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.45);
+    margin-bottom: 100px;
 }
 
 #imagenHeader{
@@ -14,6 +17,7 @@
 
 .tituloHeader{
     position: absolute;
+    color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,32 +31,13 @@
     color: rgb(119, 105, 76)
 }
 
+/* 
+.timelineSection{
+    background: rgb(250,212,171);
+    background: radial-gradient(circle, rgba(250,212,171,1) 0%, rgba(198,186,139,1) 100%);
+} */
 
-
-/* LISTA DE CURSOS HECHOS */
-#cursos{
-    list-style: none;
-    border: 1px solid #ccc;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px;
-    padding-right: 35px; 
-    border-radius: 1px;
-}
-
-#cursos:hover{
-    transition: 400ms;
-    background-color: rgba(219, 219, 219, 0.822);
-}
-
-#cursos li{
-    margin-top: 3px;
-    margin-bottom: 7px;
-}
-
-
-
-/* PRUEBA */
+/* LISTA DE CUROS */
 header h1{
     text-align: center;
     margin-top: 0;
@@ -119,7 +104,7 @@ header h1{
     margin-left: -1px;
     background: rgb(213,213,213);
     background: -moz-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(119, 105, 76)), color-stop(100%,rgb(119, 105, 76)));
     background: -webkit-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
     background: -o-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
     background: -ms-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
@@ -135,7 +120,7 @@ header h1{
     width: 16px;
     height: 10px;
     position: absolute;
-    background: #00c4f3;
+    background: rgb(119, 105, 76);
     z-index: 5;
     left: 0;
     right: 0;
@@ -146,7 +131,7 @@ header h1{
   }
   
   .timeline .hexa:before {
-    border-bottom: 4px solid #00c4f3;
+    border-bottom: 4px solid rgb(119, 105, 76);
     border-left-width: 8px;
     border-right-width: 8px;
     top: -4px;
@@ -155,7 +140,7 @@ header h1{
   .timeline .hexa:after {
     border-left-width: 8px;
     border-right-width: 8px;
-    border-top: 4px solid #00c4f3;
+    border-top: 4px solid rgb(119, 105, 76);
     bottom: -4px;
   }
   
@@ -228,19 +213,20 @@ header h1{
   }
   
   .time {
-    background: #00c4f3;
+    background: rgb(119, 105, 76);
     display: inline-block;
     padding: 8px;
   }
   
   .desc {
     position: relative;
+    transition: 800ms;
     margin: 1em 0 0 0;
     padding: 1em;
     background: rgb(254,254,254);
     -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
     -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
-    box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
     z-index: 15;
   }
   
@@ -250,6 +236,10 @@ header h1{
     margin: 1em 1em 0 1em;
     padding: 1em;
     z-index: 15;
+  }
+
+  .desc:hover{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.40);
   }
   
   @media(min-width: 768px){
