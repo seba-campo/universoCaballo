@@ -5,6 +5,9 @@ body{
     background-color: #eeeeee;
 }
 
+
+/* CLASES PARA LAS FUENTES SE PUEDEN AGREGAR LAS NECESARIAS Y USAR EN CUALQUIER HTML QUE TENGA ESTE CSS */
+
 .font{
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -22,13 +25,32 @@ body{
     font-weight: 900;
 }
 
+
+
+
+
+
+
+
 /* Barra de navegacion */
 /* LOGO Y TITULO */
 
 .navbar{
     background-color: #FFFFFF;
-    padding-bottom: 4px;
-    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 53px;
+}
+
+.TituloNav{
+    display: inline-block;
+    padding: 8px;
+    color: rgb(144,128,97);
+    transition: 400ms;
+}
+
+.TituloNav:hover{
+    color: rgb(119, 105, 76);
 }
 
 .container-fluid{
@@ -37,9 +59,8 @@ body{
     padding-left: 10px;
 }
 
-.navbar-brand{
-    font-family: Helvetica, Arial;
-    font-size: 24px;
+#navLogo{
+    margin-top: 4px;
 }
 
 .navbar-brand a{
@@ -59,10 +80,6 @@ body{
     text-align: right;
 }
 
-.nav{
-    font-family: Helvetica, Arial;
-}
-
 .nav-item{
     margin-left: 8px;
     margin-right: 10px;
@@ -71,21 +88,19 @@ body{
 .nav-item a{
     color: #455a64;
     text-decoration: none;
-    font-family: Helvetica, Arial;
 }
 
 .nav-item a:hover{
     transition: 200ms;
     color: black;
-    font-variant: initial;
 }
 
 .dropdown-menu{
     padding-left: 10px;
+    transition: 400ms;
 }
 
 .dropdown-menu a:hover{
-    transition: 400ms;
     font-style: italic;
     color: black;   
     text-decoration-line: none;
@@ -146,16 +161,6 @@ footer{
     text-align: center;
     padding: 10px;
     margin-bottom: 0;
-}
-
-.TituloNav{
-    display: inline-block;
-    padding: 10px;
-    color: rgb(144,128,97);
-}
-
-.TituloNav:hover{
-    color: rgb(119, 105, 76);
 }
 
 .press{

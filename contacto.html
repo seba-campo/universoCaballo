@@ -7,6 +7,10 @@
         <!--Logo pestaña-->
         <link rel="icon" type="image/jpg" href="img/logo.jpg" />
         
+        <!--FUENTES GOOGLE FONTS GLOBALES-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
         <!--BOOTSTRAP-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -14,8 +18,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
         <!--CSS-->
-        <link rel="stylesheet" href="css/contacto.css">
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        
 
         <!--JS-->
         <script type="text/javascript" src="js/contact.js"></script>
@@ -24,17 +29,20 @@
     </head>
     <body>
         <!--NAVBAR-->
-        <nav class="navbar navbar-light">
-            <div class="containter-fluid">
-                <!--Logo con texto-->
+        <nav class="navbar navbar-light font">
+
+            <!--Logo con texto-->
+
+            <div class="container-fluid fontTitulo">
                 <a class="navbar-brand" href="index.html">
-                <img src="img/logo-navbar.JPG" alt="" width="40px" height="35px" class="d-inline-block align-top" id="navLogo">
-                Universo Caballo
+                    <img src="img/logo-navbar.JPG" alt="" width="40px" height="35px" class="d-inline-block align-top" id="navLogo"><h4 class="TituloNav">Universo Caballo</h4>
                 </a>
             </div>
 
+
+
             <!--right navbar-->
-            <ul class="nav navbar-tabs navbar-right">
+            <ul class="nav navbar-tabs navbar-right font">
                 <li class="nav-item"><a href="index.html">Inicio</a></li>
                 <li class="nav-item"><a href="SobreMi.html">Sobre mí</a></li>
                 <li class="nav-item dropdown">
@@ -60,15 +68,8 @@
                 <li class="nav-item"><a href="#">Biblioteca</a></li>
                 <li class="nav-item"><a href="contacto.html">Contacto</a></li>
             </ul>
-        </nav>   
+        </nav>
 
-                <!--Banner-->
-
-                <div class="containter">
-                    <div class="banner">
-                        <img src="img/banner.jpg" alt="">
-                    </div>
-                </div>
         
                 <!--Contacto-->
                 <div class="container centrado espacios">

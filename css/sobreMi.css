@@ -8,23 +8,27 @@
     box-shadow: 0 0 6px rgba(0,0,0,0.45);
     margin-bottom: 100px;
 
-    background: url(../img/pruebaBanner.jpg) fixed;
-    background-size: 1865px; 
+    background: url(../img/about/aboutBanner.jpg) fixed;
+    background-size: 1374px; 
 }
 
 
 .tituloHeader{
     position: absolute;
-    font-size: 25px;
+    font-size: 35px;
     border-bottom: 6px solid aliceblue;
     border-radius: 3px;
-    color: white;
-    background-color: rgba(20, 20, 20, 0.515);
+    color: rgb(144,128,97);
+    text-shadow: rgb(0, 0, 0) 2px 0px 7px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: 400ms;
 }
 
+.tituloHeader:hover{
+  color: rgb(119, 105, 76);
+}
 
 
 /* TITULO DEL BODY */
@@ -33,11 +37,6 @@
     color: rgb(119, 105, 76)
 }
 
-/* 
-.timelineSection{
-    background: rgb(250,212,171);
-    background: radial-gradient(circle, rgba(250,212,171,1) 0%, rgba(198,186,139,1) 100%);
-} */
 
 /* LISTA DE CUROS */
 header h1{
@@ -202,7 +201,7 @@ header h1{
     margin: 4px 0 0 0;
     z-index: 14;
     line-height: 1em;
-    vertical-align: middle;
+    
     color: #fff;
   }
   
