@@ -1,17 +1,6 @@
 $(document).ready(function () {
 
 
-
-    $(".slickSlider").slick({
-        dots: true,
-        inifinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-    });
-    
-
-
     // Datos de las experiencias guardados y mostrados dinamicamente
     // Modificar acá en caso de necesitar agregar
 
@@ -136,9 +125,6 @@ $(document).ready(function () {
         // Por cada iteración del bucle se aplican los datos solicitados en el ${}
         $('#listaExperiencias').append(experiencia);
     });
-
-    
-    
 
 
     // Animacion del Fade IN del Footer- Proximamente se hará con animeJS

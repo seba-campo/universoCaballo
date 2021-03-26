@@ -1,0 +1,14 @@
+  /* FOTOS  */
+.card-group{
+    margin: 50px;
+    
+}
+  
+.card{
+    margin: 5px;
+    width: 250px
+}
+  
+.card img{
+    height: 320px
+}
