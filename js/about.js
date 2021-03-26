@@ -2,6 +2,16 @@ $(document).ready(function () {
 
 
 
+    $(".slickSlider").slick({
+        dots: true,
+        inifinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+    });
+    
+
+
     // Datos de las experiencias guardados y mostrados dinamicamente
     // Modificar acá en caso de necesitar agregar
 
@@ -127,6 +137,11 @@ $(document).ready(function () {
         $('#listaExperiencias').append(experiencia);
     });
 
+    
+    
+
+
+    // Animacion del Fade IN del Footer- Proximamente se hará con animeJS
     $(document).scroll(function () {
         var y = $(this).scrollTop();
         console.log(y);
@@ -134,6 +149,11 @@ $(document).ready(function () {
             $('footer').fadeIn(1500);
         } 
     });
+
+
+
+
     
 
 });
+

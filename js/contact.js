@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+
+
+
+
+    // Animacion del footer
     $('footer').fadeIn(1500)
     // Animacion del Footer segun su posicion..... usar cuando sea necesario
     $(document).scroll(function () {
