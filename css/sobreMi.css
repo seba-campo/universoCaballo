@@ -1,4 +1,4 @@
-/*  prueba de texto en la foto */
+/* Header con foto*/
 .header{
     position: relative;
     display: inline-block;
@@ -10,15 +10,15 @@
 
     background: url(../img/about/aboutBanner.jpg) fixed;
     background-size: 1374px; 
+    
 }
-
 
 .tituloHeader{
     position: absolute;
     font-size: 35px;
     border-bottom: 6px solid aliceblue;
     border-radius: 3px;
-    color: rgb(144,128,97);
+    color: rgb(187, 164, 118);
     text-shadow: rgb(0, 0, 0) 2px 0px 7px;
     top: 50%;
     left: 50%;
@@ -27,7 +27,7 @@
 }
 
 .tituloHeader:hover{
-  color: rgb(119, 105, 76);
+  color: rgb(151, 132, 92);
 }
 
 
