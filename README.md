@@ -13,7 +13,7 @@
 > Inicio, reestructurar
 > Footer
 
-##Lista de hechos
+## Lista de hechos
 
 > Seccion sobre mi completa
 
