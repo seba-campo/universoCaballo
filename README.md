@@ -2,15 +2,15 @@
 
 -----A REVISAR-----
 
-*El alto del navbar es diferente en cada página (revisar)
+*El alto del navbar es diferente en cada página (revisar)  *hecho*
 
 *Estar atentos a cambios en cuanto al alto de cada página (se determina por el contenido que tiene) ya que la animacion del footer no va a tener efecto
 
 
 -----A MODIFICAR-----
 
-*Seccion contacto
+> Seccion contacto 
 
-*Carrousell en "sobre mi"
+> Carrousell en "sobre mi"
 
 
