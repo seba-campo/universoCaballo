@@ -10,7 +10,11 @@
 -----A MODIFICAR-----
 
 > Seccion contacto 
+> Inicio, reestructurar
+> Footer
 
-> Carrousell en "sobre mi"
+##Lista de hechos
+
+> Seccion sobre mi completa
 
 
