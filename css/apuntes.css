@@ -52,3 +52,7 @@
     border: 2px solid #ccc;
     border-radius: 5px;
 }
+
+.ui-accordion-header.ui-state-active{
+    background-color: rgb(187, 164, 118);
+}
