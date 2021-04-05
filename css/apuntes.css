@@ -37,18 +37,10 @@
     margin-right: 50px;
 }
 
-#subTitle{
-    font-size: 18px;
+#title{
+
 }
 
-/* Acordeon de apuntes */
-
-#accordion{
-    margin-left: 50px;
-    margin-right: 100px;
-    margin-bottom: 200px;
-    list-style-type: none;
-    padding: 5px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
+#subTitle{
+    font-size: 18px;
 }
