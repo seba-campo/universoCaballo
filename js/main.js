@@ -1,13 +1,7 @@
 $(document).ready(function(){
 
-    // SLIDER en index
-    $('.bxSlider').bxSlider({
-        randomStart: true,
-        infiniteLoop: true,
-        pager: false,
-        auto: true,
-    });
 
+    
     $(document).scroll(function () {
         var y = $(this).scrollTop();
         
@@ -17,6 +11,24 @@ $(document).ready(function(){
 
     
     });
+
+    // Anime JS - Prueba de fade IN
+    var divIndex = document.querySelector('#textoBody');
+    var imgBody = document.querySelector('#imagenBody');
+
+    anime({
+        targets: divIndex,
+        opacity: '1',
+        duration: 800,
+        easing: 'easeInOutQuad',
+    });
+
+    anime({
+        targets: imgBody,
+        opacity: '1',
+        duration: 1500,
+        easing: 'easeInOutQuad',
+    })
 
 
 });
