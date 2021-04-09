@@ -139,23 +139,30 @@ body{
 /*Footer / Pie de pagina*/
 
 footer{
-    background: rgb(119, 105, 76);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgb(119, 105, 76), rgb(124, 95, 37));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgb(119, 105, 76), rgb(107, 78, 18)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    height: 230px;
+    /* background-color: #6d6875;     */
+    background: rgb(109,104,117);
+    background: linear-gradient(0deg, rgba(109,104,117,1) 0%, rgba(230,228,228,1) 100%);
+    
     margin-bottom: 0px;
-    display: none;
+    opacity: 0;
+}
+
+#divYoutube{
+    text-align: right;
 }
 
 .logoinsta{
     width: 100px;
-
+    margin-bottom: 40px;
 }
 
 .logoyoutube{
-    width: 120px;
+    width: 140px;
 }
 
 .redes{
+    color: #03071e;
     padding-top: 30px;
     text-align: center;
 }
@@ -163,6 +170,7 @@ footer{
 .derechos{
     text-align: center;
     padding: 10px;
+    padding-bottom: 0px;
     margin-bottom: 0;
 }
 

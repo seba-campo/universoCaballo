@@ -32,12 +32,24 @@
 
 /* Estilos */
 
+
+/* ScrollSpy */
+
+
+
+/* Certificados*/
+
 .caja{
   text-align: left;
   margin: 25px;
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
+  transition: 400ms
+}
+
+.caja:hover{
+  background-color: #e2c1c1;
 }
 
 .bordes{
@@ -46,19 +58,6 @@
   box-shadow: 0px -4px 3px #E6E6E6 ;
 }
 
-/* ScrollSpy */
-
-
-
-/* Certificados*/
-
-.container{
-  transition: 400ms
-}
-
-.container:hover{
-  background-color: #e2c1c1;
-}
 
 #imgCert{
   position: relative;

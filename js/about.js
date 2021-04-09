@@ -127,12 +127,22 @@ $(document).ready(function () {
         $('#listaExperiencias').append(experiencia);
     });
 
+    // Animacion footer animeJS
+
+    var footer = document.querySelector('#footer');
+
     $(document).scroll(function () {
         var y = $(this).scrollTop();
         console.log(y);
-        if (y >= 4300) {
-            $('footer').fadeIn(1500);
-        } 
+
+        if (y >= 4500) {
+            anime({
+                targets: footer,
+                opacity: '0.9',
+                duration: 800,
+                easing: 'easeInOutQuad',
+            });
+        };
     });
     
 

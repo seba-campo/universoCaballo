@@ -29,6 +29,22 @@
 }
 
 /* Lista bibliografias */
+
+#primerDiv{
+    margin-right: 0px;
+    display: none;
+}
+
+#segundoDiv{
+    margin-right: 0px;
+    display: none;
+}
+#tercerDiv{
+    margin-right: 0px;
+    display: none;
+}
+
+
 #bibliografias{
     margin-bottom: 40px;
 }
