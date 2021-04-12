@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    // Nuevo cambio
     var footer = document.querySelector('#footer');
 
     $(document).scroll(function () {
