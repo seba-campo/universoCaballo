@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
 
 
-
+    //Acordeon 
     var acordion = $('#accordion');
 
     acordion.accordion({
@@ -29,5 +29,20 @@ $(document).ready(function(){
                 'activeHeader': 'ui-icon-pin-w',
                 },
     });
+
+
+    // Disclaimer
+    var disclaimer = $('#disclaimerImg');
+    var modal = $('.modal');
+    var span = $('.close');
+    
+    disclaimer.click(function(){
+        modal.show();        
+    });
+
+    span.click(function(){
+        modal.hide();
+    });
+
 
 });
