@@ -204,7 +204,7 @@ footer{
 .modal{
     display: none; /*Hidden by default*/
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 100; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -212,14 +212,17 @@ footer{
     /* overflow: auto; Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
 }
 
 .modal-content{
-    background-color: #ceb581;
+    background-color: #d4c4a0;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid rgb(134, 134, 134);
     width: 80%;
+    text-align: center;
 }
 
 .close{
@@ -227,6 +230,7 @@ footer{
     float: right;
     font-size: 38px;
     font-weight: bold;
+    text-align: right;
 }
 
 .close:hover,

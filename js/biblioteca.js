@@ -33,6 +33,19 @@ $(document).ready(function(){
             {translateX: '-150px', duration: 900},
          ],
         easing: 'easeInOutQuad',
-    })
+    });
+
+    // Disclaimer
+    var disclaimer = $('#disclaimerImg');
+    var modal = $('.modal');
+    var span = $('.close');
+    
+    disclaimer.click(function(){
+        modal.show();        
+    });
+
+    span.click(function(){
+        modal.hide();
+    });
 
 });

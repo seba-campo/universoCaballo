@@ -36,6 +36,18 @@ $(document).ready(function(){
         easing: 'easeInOutQuad',
     });
 
+    // Disclaimer
+    var disclaimer = $('#disclaimerImg');
+    var modal = $('.modal');
+    var span = $('.close');
+    
+    disclaimer.click(function(){
+        modal.show();        
+    });
+
+    span.click(function(){
+        modal.hide();
+    });
     
 
 
