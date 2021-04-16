@@ -1,5 +1,12 @@
 # universoCaballo
 
+Página proyecto, para implementar conocimientos. 
+[La página original](https://www.universocaballo.com/) la creé en Google Sites (no estoy copiando una página de un tercero). Tomándola como referencia. Tratando de mantener el estilo general y re-crear ciertos aspectos y funcionalidades.
+
+
+
+
+
 -----A REVISAR-----
 
 *El alto del navbar es diferente en cada página (revisar)  *hecho*
@@ -11,12 +18,9 @@
 
 -----A MODIFICAR-----
 
-> Seccion contacto 
-> Inicio, reestructurar
-> Footer
+> Seccion contacto .
+> Inicio, reestructurar.
+> Sección certificados.
 
-## Lista de hechos
-
-> Seccion sobre mi completa
 
 
