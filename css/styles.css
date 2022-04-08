@@ -3,7 +3,9 @@ body{
     padding: 0%;
     margin: 0%;
     background-color: #e6e4e4;
+    max-height: max-content;
 }
+
 
 
 /* CLASES PARA LAS FUENTES SE PUEDEN AGREGAR LAS NECESARIAS Y USAR EN CUALQUIER HTML QUE TENGA ESTE CSS */

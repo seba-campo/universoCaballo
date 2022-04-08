@@ -1,18 +1,13 @@
 $(document).ready(function(){
 
-    var footer = document.querySelector('#footer');
+    
 
     $(document).scroll(function () {
         var y = $(this).scrollTop();
         console.log(y);
         
         if (y >= 900){
-            anime({
-                targets: footer,
-                opacity: '0.9',
-                duration: 800,
-                easing: 'easeInOutQuad',
-            });
+           
         }; 
     });
 
@@ -32,10 +27,20 @@ $(document).ready(function(){
 
 
     // Disclaimer
-    var disclaimer = $('#disclaimerImg');
-    var modal = $('.modal');
-    var span = $('.close');
-    
+    const disclaimer = $('#disclaimerImg');
+    const modal = $('.modal');
+    const span = $('.close');
+    const footer = document.querySelector('#footer');
+
+
+    anime({
+        targets: footer,
+        opacity: '0.9',
+        duration: 800,
+        easing: 'easeInOutQuad',
+    });
+
+
     disclaimer.click(function(){
         modal.show();        
     });

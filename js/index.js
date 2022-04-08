@@ -1,26 +1,27 @@
 $(document).ready(function(){
 
+    
+    // $(document).scroll(function () {
+    //     var y = $(this).scrollTop();
+    //     console.log(y);
+    //     if (y > 250) {
+    //         
+    //     }; 
 
     
-    $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        console.log(y);
-        if (y > 250) {
-            anime({
-                targets: footer,
-                opacity: '0.9',
-                duration: 800,
-                easing: 'easeInOutQuad',
-            });
-        }; 
-
-    
-    });
+    // });
 
     // Anime JS - Prueba de fade IN
-    var divIndex = document.querySelector('#textoBody');
-    var imgBody = document.querySelector('#imagenBody');
-    var footer = document.querySelector('#footer');
+    const divIndex = document.querySelector('#textoBody');
+    const imgBody = document.querySelector('#imagenBody');
+    const footer = document.querySelector('#footer');
+
+    anime({
+        targets: footer,
+        opacity: '0.9',
+        duration: 800,
+        easing: 'easeInOutQuad',
+    });
 
     anime({
         targets: divIndex,

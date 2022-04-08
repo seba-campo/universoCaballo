@@ -5,6 +5,11 @@ $(document).ready(function () {
     // Datos de las experiencias guardados y mostrados dinamicamente
     // Modificar acá en caso de necesitar agregar
 
+
+
+// This should be uploaded in JSON to a DB and make requests from this .js -- to do
+
+
     var experiencias = [
         {
             mes: "Septiembre",
@@ -129,27 +134,20 @@ $(document).ready(function () {
 
     // Animacion footer animeJS
 
-    var footer = document.querySelector('#footer');
-
-    $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        console.log(y);
-
-        if (y >= 4500) {
-            anime({
-                targets: footer,
-                opacity: '0.9',
-                duration: 800,
-                easing: 'easeInOutQuad',
-            });
-        };
-    });
-
+    
 
     // Disclaimer
-    var disclaimer = $('#disclaimerImg');
-    var modal = $('.modal');
-    var span = $('.close');
+    const disclaimer = $('#disclaimerImg');
+    const modal = $('.modal');
+    const span = $('.close');
+    const footer = document.querySelector('#footer');
+    
+    anime({
+        targets: footer,
+        opacity: '0.9',
+        duration: 800,
+        easing: 'easeInOutQuad',
+    });
     
     disclaimer.click(function(){
         modal.show();        
