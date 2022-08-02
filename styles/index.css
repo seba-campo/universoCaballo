@@ -6,7 +6,7 @@ body{
 
 .navbar-div{
     height: 80px;
-    background-color: bisque;
+    background-color: #cf6257;
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
@@ -27,27 +27,29 @@ body{
     border: 0px 0px;
     height: 8px;
     width: 45px;
-    background-color: rgb(98, 95, 95);
+    background-color: #e4e7e8;
 }
 
 /* header */
 
 .header-div{
-    height: 478px;
+    height: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    background-color: #e4e7e8;
 
 }
 
 .header-title{
     align-self: center;
-    margin-left: 30px;
+    margin: 35px;
+    color:#53585a
 }
 
-.header-profile-picture{
-    align-self: baseline;
-    width: 523px;
-    height: 478px;
-    
+.header-image-div{
+    width: auto;
+    align-items: center;
 }
+
+/*  */

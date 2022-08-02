@@ -26,3 +26,15 @@ Generada nueva main-v2.
 
 
 
+
+-------
+
+Paletas colormind.io: 
+light shades: #e4e7e8
+light accent: #89b4ba
+main brand color: #cf6257
+dark accent: #b89291
+dark shades: #53585a
+
+
+
