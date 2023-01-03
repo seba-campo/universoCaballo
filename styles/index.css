@@ -9,6 +9,7 @@ body {
   background-color: rgb(255, 255, 255);
   background-color: #cf6257;
   display: flex;
+  border-radius: 2px;
   padding-left: 30px;
   padding-right: 30px;
   justify-content: space-between;
@@ -93,7 +94,7 @@ body {
 /* FOOTER */
 
 .footer-div {
-  min-height: 25vh;
+  min-height: 30vh;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
